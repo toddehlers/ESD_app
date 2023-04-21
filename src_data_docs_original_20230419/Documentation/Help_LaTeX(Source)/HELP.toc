@@ -1,0 +1,42 @@
+\select@language {english}
+\contentsline {chapter}{List of Figures}{3}{chapter*.2}
+\contentsline {chapter}{List of Tables}{4}{chapter*.3}
+\contentsline {chapter}{\numberline {1}ABOUT THE PROGRAM}{5}{chapter.1}
+\contentsline {chapter}{\numberline {2}DATA}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}Precipitation and Temperature data}{6}{section.2.1}
+\contentsline {section}{\numberline {2.2}Erosion data (BriefData)}{6}{section.2.2}
+\contentsline {section}{\numberline {2.3}Extra data}{7}{section.2.3}
+\contentsline {section}{\numberline {2.4}Using the data}{7}{section.2.4}
+\contentsline {chapter}{\numberline {3}The PROGRAM}{8}{chapter.3}
+\contentsline {section}{\numberline {3.1}Interface}{8}{section.3.1}
+\contentsline {section}{\numberline {3.2}Data panel}{9}{section.3.2}
+\contentsline {section}{\numberline {3.3}Options panel}{9}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Country borders}{9}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Statistic values}{9}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Cosmo sample}{9}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}LGM ice cover}{9}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Color-bar type}{9}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}Plot area}{10}{subsection.3.3.6}
+\contentsline {section}{\numberline {3.4}Real-time map}{10}{section.3.4}
+\contentsline {section}{\numberline {3.5}Number of figures panel and Run}{10}{section.3.5}
+\contentsline {section}{\numberline {3.6}Save panel}{11}{section.3.6}
+\contentsline {section}{\numberline {3.7}None Erosion Map panel}{11}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}In one figure / In separated figures}{12}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7.2}Precipitation or Temperature map}{12}{subsection.3.7.2}
+\contentsline {subsection}{\numberline {3.7.3}Precipitation or Temperature difference map}{12}{subsection.3.7.3}
+\contentsline {section}{\numberline {3.8}Erosion profile panel}{12}{section.3.8}
+\contentsline {subsection}{\numberline {3.8.1}Select erosion profile based on statistic}{12}{subsection.3.8.1}
+\contentsline {subsection}{\numberline {3.8.2}Other erosion profile sub-panels}{13}{subsection.3.8.2}
+\contentsline {section}{\numberline {3.9}What do you see in an erosion profile}{13}{section.3.9}
+\contentsline {subsection}{\numberline {3.9.1}River profile elevation (top left subplot)}{14}{subsection.3.9.1}
+\contentsline {subsection}{\numberline {3.9.2}Lateral shift in knickpoint position (top right subplot)}{15}{subsection.3.9.2}
+\contentsline {subsection}{\numberline {3.9.3}Mean catchment erosion rate (bottom left subplot)}{15}{subsection.3.9.3}
+\contentsline {subsection}{\numberline {3.9.4}Change in mean river erosion rate (middle right subplot)}{16}{subsection.3.9.4}
+\contentsline {subsection}{\numberline {3.9.5}Change in mean cosmogenic erosion rate (bottom right subplot)}{16}{subsection.3.9.5}
+\contentsline {section}{\numberline {3.10}Erosion map panel}{17}{section.3.10}
+\contentsline {subsection}{\numberline {3.10.1}Map category / @ what point}{17}{subsection.3.10.1}
+\contentsline {section}{\numberline {3.11}Plot Histogram panel}{20}{section.3.11}
+\contentsline {subsection}{\numberline {3.11.1}Response time histogram}{20}{subsection.3.11.1}
+\contentsline {subsection}{\numberline {3.11.2}Erosion rate histogram}{21}{subsection.3.11.2}
+\contentsline {chapter}{\numberline {4}APPENDIX}{22}{chapter.4}
+\contentsline {section}{\numberline {4.1}BriefData header}{22}{section.4.1}

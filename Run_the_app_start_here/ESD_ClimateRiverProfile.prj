@@ -1,0 +1,164 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="/Users/reza/OneDrive - bwedu/WorkDirectory/EarthShape/ESD_app/SC_Vesrion9(27.08.2021)/ESD_ClimateRiverProfile.prj" location="/Users/reza/OneDrive - bwedu/WorkDirectory/EarthShape/ESD_app/SC_Vesrion9(27.08.2021)" name="ESD_ClimateRiverProfile" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>ESD_ClimateRiverProfile</param.appname>
+    <param.icon>${PROJECT_ROOT}/ESD_ClimateRiverProfile_resources/icon.icns</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}/ESD_ClimateRiverProfile_resources/icon_48.png</file>
+      <file>${PROJECT_ROOT}/ESD_ClimateRiverProfile_resources/icon_32.png</file>
+      <file>${PROJECT_ROOT}/ESD_ClimateRiverProfile_resources/icon_24.png</file>
+      <file>${PROJECT_ROOT}/ESD_ClimateRiverProfile_resources/icon_16.png</file>
+    </param.icons>
+    <param.version>9.0</param.version>
+    <param.authnamewatermark>Reza Ershadi</param.authnamewatermark>
+    <param.email>mohammadreza.ershadi@uni-tuebingen.de</param.email>
+    <param.company />
+    <param.summary>Compiled on;
+MATALAB2021a
+macOS (BigSur - Version 11.5.2)</param.summary>
+    <param.description />
+    <param.screenshot>/Users/reza/OneDrive - bwedu/WorkDirectory/EarthShape/ESD_app/Data/Icons/splash.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>/ESD_Tuebingen/</param.installpath.string>
+    <param.installpath.combo>option.installpath.systemwideapp</param.installpath.combo>
+    <param.logo>/Users/reza/OneDrive - bwedu/WorkDirectory/EarthShape/ESD_app/Data/Icons/splash.png</param.logo>
+    <param.install.notes>********************
+********************
+********************
+After successful installation, go to the installation directory in "Applications/ESD_Tuebingen/application". In case of missing data, replace/fill the four empty data folders (BreifData, ExtraData, PrecipitationData and TemperatureData) with the App Data.</param.install.notes>
+    <param.target.install.notes>In the following directions, replace MR/v910 by the directory on the target machine where MATLAB is installed, or MR by the directory where the MATLAB Runtime is installed.
+
+If the environment variable DYLD_LIBRARY_PATH is undefined, set it to the following string:
+
+MR/v910/runtime/maci64:MR/v910/sys/os/maci64:MR/v910/bin/maci64
+
+If it is defined, set it to the following:
+
+${DYLD_LIBRARY_PATH}:MR/v910/runtime/maci64:MR/v910/sys/os/maci64:MR/v910/bin/maci64</param.target.install.notes>
+    <param.intermediate>${PROJECT_ROOT}/ESD_ClimateRiverProfile/for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}/ESD_ClimateRiverProfile/for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}/ESD_ClimateRiverProfile/for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}/ESD_ClimateRiverProfile</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>false</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>ESD_ClimateRiverProfile</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>false</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments</param.help.text>
+    <unset>
+      <param.company />
+      <param.description />
+      <param.guid />
+      <param.installpath.combo />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/ESD.mlapp</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/app_FUNC_DataFinder.m</file>
+      <file>${PROJECT_ROOT}/app_FUNC_ExtractParameters.m</file>
+      <file>${PROJECT_ROOT}/app_FUNC_GeneralCheckBox.m</file>
+      <file>${PROJECT_ROOT}/app_FUNC_MapMaker1.m</file>
+      <file>${PROJECT_ROOT}/app_FUNC_MapMaker2.m</file>
+      <file>${PROJECT_ROOT}/app_FUNC_PrecipitationLoader.m</file>
+      <file>${PROJECT_ROOT}/app_FUNC_PrecipitationMapMaker.m</file>
+      <file>${PROJECT_ROOT}/app_FUNC_ProfileMaker1.m</file>
+      <file>${PROJECT_ROOT}/app_FUNC_ProfileMaker2.m</file>
+      <file>${PROJECT_ROOT}/app_FUNC_ProfileMaker3.m</file>
+      <file>${PROJECT_ROOT}/app_FUNC_TargetLabel.m</file>
+      <file>${PROJECT_ROOT}/app_FUNC_TemperatureMapMaker.m</file>
+      <file>${PROJECT_ROOT}/app_FUNC_checkboxes.m</file>
+      <file>${PROJECT_ROOT}/app_FUNC_colobarspacing.m</file>
+      <file>${PROJECT_ROOT}/app_FUNC_figureratio.m</file>
+      <file>${PROJECT_ROOT}/app_FUNC_hist.m</file>
+      <file>${PROJECT_ROOT}/app_FUNC_mapaxesmaker.m</file>
+      <file>${PROJECT_ROOT}/app_FUNC_mapaxesmakerprecipitation.m</file>
+      <file>${PROJECT_ROOT}/app_FUNC_pointfinder.m</file>
+      <file>${PROJECT_ROOT}/app_FUNC_precMapMakerDif.m</file>
+      <file>${PROJECT_ROOT}/app_FUNC_precMapMakerPrec.m</file>
+      <file>${PROJECT_ROOT}/app_FUNC_pushbut.m</file>
+      <file>${PROJECT_ROOT}/app_FUNC_questionbox.m</file>
+      <file>${PROJECT_ROOT}/app_FUNC_realtimemap.m</file>
+      <file>${PROJECT_ROOT}/app_FUNC_roundvalues.m</file>
+      <file>${PROJECT_ROOT}/app_FUNC_setthefiguresize.m</file>
+      <file>${PROJECT_ROOT}/app_FUNC_tempMapMakerDif.m</file>
+      <file>${PROJECT_ROOT}/app_FUNC_tempMapMakerTemp.m</file>
+      <file>${PROJECT_ROOT}/app_Func_getcheckboxvalue.m</file>
+      <file>${PROJECT_ROOT}/macopen.m</file>
+      <file>${PROJECT_ROOT}/redblue.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}/ESD_ClimateRiverProfile/for_testing" name="readme.txt" optional="true">/Users/reza/OneDrive - bwedu/WorkDirectory/EarthShape/ESD_app/SC_Vesrion9(27.08.2021)/ESD_ClimateRiverProfile/for_testing/readme.txt</file>
+      <file location="${PROJECT_ROOT}/ESD_ClimateRiverProfile/for_testing" name="run_ESD_ClimateRiverProfile.sh" optional="false">/Users/reza/OneDrive - bwedu/WorkDirectory/EarthShape/ESD_app/SC_Vesrion9(27.08.2021)/ESD_ClimateRiverProfile/for_testing/run_ESD_ClimateRiverProfile.sh</file>
+      <file location="${PROJECT_ROOT}/ESD_ClimateRiverProfile/for_testing" name="ESD_ClimateRiverProfile.app" optional="false">/Users/reza/OneDrive - bwedu/WorkDirectory/EarthShape/ESD_app/SC_Vesrion9(27.08.2021)/ESD_ClimateRiverProfile/for_testing/ESD_ClimateRiverProfile.app</file>
+      <file location="${PROJECT_ROOT}/ESD_ClimateRiverProfile/for_testing" name="splash.png" optional="false">/Users/reza/OneDrive - bwedu/WorkDirectory/EarthShape/ESD_app/SC_Vesrion9(27.08.2021)/ESD_ClimateRiverProfile/for_testing/splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2021a.app</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.16</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
